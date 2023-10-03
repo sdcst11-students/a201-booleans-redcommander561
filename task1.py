@@ -19,3 +19,18 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+
+x = int(input("enter number: "))
+
+
+if x == int(100):
+    print("the number is equal to 100")
+
+elif x < int(100):
+    print("yuppers the number is less than 100")
+
+elif x > int(100):
+    print("The number is bigger than 100! yippee!!!!!!!")
+
+
+#I made it guess the number instead
